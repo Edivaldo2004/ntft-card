@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+}
+.container{
+    background-color: hsl(215, 32%, 27%);
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 180px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+img:hover{
+   
+}
+.text{
+    color: white;
+    font-size: 22px;
+    margin-right: 122px;
+    margin-top: 14px;
+    font-weight: bold;
+}
+.text:hover{
+    color: hsl(178, 100%, 50%);
+}
+.first-text{
+    margin-right: 12px;
+    margin-top: -8px;
+    color: white;
+}
+.nop{
+    margin-right: 18px;
+}
+.second-text{
+    margin-right: 240px;
+    margin-top: -12px;
+    color: white;
+}
+.first-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 260px;
+}
+.second-img{
+    width: 15px;
+    height: 15px;
+    margin-left: 23px;
+    margin-top: 12px;
+}
+.img-text{
+    display: flex;
+}
+.scar{
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: hsl(178, 100%, 50%);
+}
+.m60{
+    font-size: 15px;
+    margin-top: 11px;
+    margin-left: 12px;
+}
+.third-img{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px; 
+}
