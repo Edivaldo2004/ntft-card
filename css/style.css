@@ -8,16 +8,24 @@ body{
     width: 350px;
     height: 600px;
     border-radius: 10px;
-    margin-top: 180px;
+    margin-top:80px;
+    box-shadow: 0 6px 16px rgba(28, 78, 216, 0.6);
+}
+.container:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+     font-family: "FontAwesome";
+     font-style: normal;
+     font-variant-caps: normal;
+     font-variant-ligatures: normal;
+     text-rendering: auto;
+     box-shadow: 0 6px 16px rgba(216, 28, 131, 0.6);
 }
 img{
     width: 300px;
     height: 300px;
     margin-top: 25px;
     border-radius: 10px;
-}
-img:hover{
-   
 }
 .text{
     color: white;
@@ -32,7 +40,7 @@ img:hover{
 .first-text{
     margin-right: 12px;
     margin-top: -8px;
-    color: white;
+    color: #a8cfdb;
 }
 .nop{
     margin-right: 18px;
@@ -40,7 +48,7 @@ img:hover{
 .second-text{
     margin-right: 240px;
     margin-top: -12px;
-    color: white;
+    color: #a8cfdb;
 }
 .first-img{
     width: 40px;
@@ -65,10 +73,29 @@ img:hover{
 .m60{
     font-size: 15px;
     margin-top: 11px;
-    margin-left: 12px;
+    margin-left: 5px;
+    color: #a8cfdb;
 }
 .third-img{
     width: 15px;
     height: 15px;
-    margin-left: 15px; 
+    margin-left: 120px; 
+    margin-top: 12px;
+}
+.hr{
+    width: 298px;
+    color: #a8cfdb;
+}
+.jules{
+    color: #a8cfdb;
+    font-size: 15px;
+    margin-top: -32px;
+    margin-left: 5px;
+}
+span{
+    color: white;
+    margin-left: 5px;
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
 }

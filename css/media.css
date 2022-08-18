@@ -1,0 +1,91 @@
+@media screen and (min-width: 800px) { 
+
+    .container{
+        background-color: hsl(215, 32%, 27%);
+        width: 350px;
+        height: 600px;
+        border-radius: 10px;
+        margin-top: 100px;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+    img:hover{
+        background-image: url("img/icon-view.svg");
+    }
+    .text{
+        color: white;
+        font-size: 22px;
+        margin-right: 122px;
+        margin-top: 14px;
+        font-weight: bold;
+    }
+    .text:hover{
+        color: hsl(178, 100%, 50%);
+    }
+    .first-text{
+        margin-right: 12px;
+        margin-top: -8px;
+        color: #a8cfdb;
+    }
+    .nop{
+        margin-right: 18px;
+    }
+    .second-text{
+        margin-right: 240px;
+        margin-top: -12px;
+        color: #a8cfdb;
+    }
+    .first-img{
+        width: 40px;
+        height: 40px;
+        margin-right: 260px;
+    }
+    .second-img{
+        width: 15px;
+        height: 15px;
+        margin-left: 23px;
+        margin-top: 12px;
+    }
+    .img-text{
+        display: flex;
+    }
+    .scar{
+        font-size: 15px;
+        margin-top: 12px;
+        margin-left: 8px;
+        color: hsl(178, 100%, 50%);
+    }
+    .m60{
+        font-size: 15px;
+        margin-top: 11px;
+        margin-left: 5px;
+        color: #a8cfdb;
+    }
+    .third-img{
+        width: 15px;
+        height: 15px;
+        margin-left: 120px; 
+        margin-top: 12px;
+    }
+    .hr{
+        width: 298px;
+        color: #a8cfdb;
+    }
+    .jules{
+        color: #a8cfdb;
+        font-size: 15px;
+        margin-top: -32px;
+        margin-left: 5px;
+    }
+    span{
+        color: white;
+        margin-left: 5px;
+    }
+    span:hover{
+        color: hsl(178, 100%, 50%);
+    }
+}
